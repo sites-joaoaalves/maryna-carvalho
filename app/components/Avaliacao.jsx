@@ -18,6 +18,7 @@ const Avaliacao = ({ id, name, depoimento, rating }) => {
             .fill()
             .map((_, i) => (
               <input
+              key={i}
                 disabled
                 type="radio"
                 name={`rating-${id}`}

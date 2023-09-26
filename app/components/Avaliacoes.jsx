@@ -43,6 +43,7 @@ const Avaliacoes = () => {
       <div className="flex justify-center w-full py-2 gap-2">
         {avaliacoes.map((avaliacao, index) => (
           <a
+            key={index}
             href={`#avaliacao-${index}`}
             className="btn btn-sm text-xl font-roboto bg-white text-black hover:bg-primary hover:text-white"
           >
