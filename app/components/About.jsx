@@ -28,9 +28,9 @@ const About = () => {
           Conta com apoio de parceiros especializados em áreas diversas para que
           seja possível atendimento de excelência na demanda que surgir.
         </p>
-        <button className="rounded rounded-lg text-black font-bold font-roboto bg-primary w-72 h-14 mt-auto hover:bg-secondary hover:text-white hover:font-bolder transition duration-150 ease-out">
+        <a href="#contact-form" className="rounded rounded-lg text-black font-bold font-roboto bg-primary w-72 p-6 text-center mt-auto hover:bg-secondary hover:text-white hover:font-bolder transition duration-150 ease-out">
           ENTRAR EM CONTATO
-        </button>
+        </a>
       </div>
     </section>
   );

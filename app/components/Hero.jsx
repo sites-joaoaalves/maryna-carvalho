@@ -21,9 +21,9 @@ const Hero = () => {
           Me comprometo a encontrar a melhor solução para o seu problema. Em que
           posso ajudar?
         </p>
-        <button className="rounded shrink-0 rounded-lg text-black font-bold font-roboto bg-primary w-72 h-14 hover:bg-secondary hover:text-white hover:font-bolder transition duration-150 ease-out">
+        <a href="#contact-form" className="rounded shrink-0 rounded-lg text-black font-bold font-roboto bg-primary w-72 p-4 text-center hover:bg-secondary hover:text-white hover:font-bolder transition duration-150 ease-out">
           Entrar em Contato
-        </button>
+        </a>
       </div>
       <img
         src="/hero.png"
