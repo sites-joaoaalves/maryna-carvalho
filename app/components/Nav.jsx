@@ -1,49 +1,64 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Navbar } from "flowbite-react";
+
 const Nav = () => {
   return (
-    <nav className="fixed top-0 z-50 flex items-center justify-between bg-bkg-primary h-[96px] w-full px-8 md:px-[5%] lg:px-[10%] 2xl:px-[20%]">
-      <Image
-        src="/logo.png"
-        alt="Logo da Maryna Carvalho"
-        width={44}
-        height={32}
-        priority
-      />
-      <div className="flex items-center space-between text-white px-8">
-        <a
-          href="/#hero"
-          className="mr-8 font-roboto font-bold hover:text-primary"
+    <Navbar
+      className="fixed top-0 w-screen !px-12 xl:!px-[17.5%] py-6 z-10 bg-bkg-primary"
+      fluid
+      id="navbar"
+    >
+      <Navbar.Brand>
+        <img
+          src="/logo.png"
+          className="w-12"
+          alt="Logo da Maryna Carvalho"
+          priority
+        />
+      </Navbar.Brand>
+      <Navbar.Toggle />
+      <Navbar.Collapse>
+        <Navbar.Link
+          className="font-roboto font-bold hover:!text-primary !text-white"
+          href="#hero"
         >
-          Inicio
-        </a>
-        <a
-          href="/#sobre"
-          className="mr-8 font-roboto font-bold hover:text-primary"
+          Início
+        </Navbar.Link>
+        <Navbar.Link
+          className="font-roboto font-bold hover:!text-primary text-white"
+          href="#sobre"
         >
           Sobre
-        </a>
-        <a
-          href="/#servicos"
-          className="mr-8 font-roboto font-bold hover:text-primary"
+        </Navbar.Link>
+        <Navbar.Link
+          className="font-roboto font-bold hover:!text-primary text-white"
+          href="#servicos"
         >
           Serviços
-        </a>
-        <a
-          href="/#depoimentos"
-          className="mr-8 font-roboto font-bold hover:text-primary"
+        </Navbar.Link>
+        <Navbar.Link
+          className="font-roboto font-bold hover:!text-primary text-white"
+          href="#parceiros"
+        >
+          Parceiros
+        </Navbar.Link>
+        <Navbar.Link
+          className="font-roboto font-bold hover:!text-primary text-white"
+          href="#depoimentos"
         >
           Depoimentos
-        </a>
-        <a
-          href="/#contato"
-          className="mr-8 font-roboto font-bold hover:text-primary"
+        </Navbar.Link>
+        <Navbar.Link
+          className="font-roboto font-bold hover:!text-primary text-white"
+          href="#contato"
         >
           Contato
-        </a>
-      </div>
-    </nav>
+        </Navbar.Link>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 

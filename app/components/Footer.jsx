@@ -1,9 +1,13 @@
 import React from "react";
 import ContactIcon from "./ContactIcon";
+import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="px-8 md:px-[5%] lg:px-[10%] 2xl:px-[20%] pt-40 pb-20 flex bg-white items-start justify-between">
+    <footer
+      className="px-8 md:px-[5%] lg:px-[10%] 2xl:px-[20%] pt-48 pb-20 flex bg-white items-start justify-between"
+      id="footer"
+    >
       <div className="flex flex-col space-y-8">
         <img src="/logo-preto.png" alt="Logo Maryna Carvalho" />
         <span className="font-roboto font-semibold">
