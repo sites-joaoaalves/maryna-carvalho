@@ -24,10 +24,10 @@ const Avaliacao = ({ id, name, depoimento, rating, key }) => {
             ))}
         </div>
       </div>
+      <div className="relative bubble md:text-clip text-center lg:text-start text-black w-full md:w-[50%] sm:bg-white sm:p-6 sm:rounded-xl">
+        <p className="">{depoimento}</p>
+      </div>
 
-      <p className="md:text-clip text-center lg:text-start text-black w-full md:w-[50%]">
-        {depoimento}
-      </p>
       <span className="absolute font-roboto text-[140px]  md:text-[200px] right-2 bottom-2 md:right-[5%] md:bottom-[32px] h-[100px]">
         “
       </span>

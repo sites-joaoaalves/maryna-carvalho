@@ -11,8 +11,9 @@ const Nav = () => {
       fluid
       id="navbar"
     >
-      <Navbar.Brand>
+      <Navbar.Brand href="#hero">
         <img
+          loading="lazy"
           src="/logo.png"
           className="w-12"
           alt="Logo da Maryna Carvalho"

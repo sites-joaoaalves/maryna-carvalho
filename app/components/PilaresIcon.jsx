@@ -7,9 +7,9 @@ const PilaresIcon = ({ src, text, bg }) => {
       <div
         className={`relative flex flex-col items-center justify-center rounded-t-lg w-[300px] h-[300px] p-[12%]  ${bg}`}
       >
-        <img src={src} alt={text} />
+        <img loading="lazy" src={src} alt={text} />
       </div>
-      <h5 className="text-2xl font-bold text-black my-8">{text}</h5>
+      <h2 className="text-2xl font-bold text-black my-8">{text}</h2>
     </div>
   );
 };

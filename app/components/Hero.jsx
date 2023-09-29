@@ -37,7 +37,6 @@ const Hero = () => {
           src="/hero.jpg"
           alt="Foto de Maryna Carvalho"
           className="hero object-cover"
-          lazy="true"
         ></img>
       </div>
     </section>

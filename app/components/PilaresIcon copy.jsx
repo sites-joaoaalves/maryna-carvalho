@@ -6,7 +6,7 @@ const PilaresIcon = ({ src, text, bg }) => {
       <div
         className={`flex flex-col items-center justify-center rounded-lg md:w-[25vw] md:h-[30vw] md:max-w-[300px] md:max-h-[300px] p-[12%]  ${bg}`}
       >
-        <img src={src} alt={text} />
+        <img loading="lazy" src={src} alt={text} />
       </div>
       <span className="text-2xl font-roboto text-black">{text}</span>
     </div>

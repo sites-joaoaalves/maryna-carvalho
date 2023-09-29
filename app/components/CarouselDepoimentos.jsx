@@ -30,16 +30,16 @@ const CarouselDepoimentos = () => {
       slideInterval={5000}
       pauseOnHover
       leftControl={
-        <div className="w-24 h-24 flex items-center justify-center">
+        <div className="w-24 h-24 relative left-[-28px] flex items-center justify-center">
           <FaChevronLeft className="text-black text-4xl" />
         </div>
       }
       rightControl={
-        <div className="w-24 h-24 flex items-center justify-center ">
+        <div className="w-24 h-24 relative right-[-28px] flex items-center justify-center ">
           <FaChevronRight className="text-black text-4xl" />
         </div>
       }
-      className="items-stretch"
+      className="items-stretch overflow-hidden"
     >
       {avaliacoes.map((avaliacao, i) => (
         <Avaliacao key={i} {...avaliacao} id={i} />

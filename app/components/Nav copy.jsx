@@ -4,7 +4,13 @@ import Link from "next/link";
 const Nav = () => {
   return (
     <nav className="fixed top-0 z-50 flex items-center justify-between bg-bkg-primary h-[96px] w-full px-8 md:px-[5%] lg:px-[10%] 2xl:px-[20%]">
-      <img src="/logo.png" alt="Logo da Maryna Carvalho" priority />
+      <img
+        loading="lazy"
+        loading="lazy"
+        src="/logo.png"
+        alt="Logo da Maryna Carvalho"
+        priority
+      />
       <div className="flex items-center space-between text-white px-8">
         <a
           href="/#hero"

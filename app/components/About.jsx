@@ -7,9 +7,10 @@ const About = () => {
       className="bg-bkg-primary flex items-center justify-center lg:justify-between px-8 md:px-[5%] lg:px-[10%] 2xl:px-[20%] space-x-20 max-w-[100vw] max-h-[100vh] py-[5%]"
       id="sobre"
     >
-      <div className="hidden rounded-3xl lg:ml-auto lg:block w-1/2 lg:h-[780px] overflow-hidden">
+      <div className="hidden rounded-3xl lg:ml-auto w-1/2 lg:block overflow-hidden">
         <img
-          className="object-cover"
+          loading="lazy"
+          className="object-fill"
           src="/sobre.jpg"
           alt="Maryna Carvalho"
           loading="lazy"

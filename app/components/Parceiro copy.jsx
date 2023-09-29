@@ -13,9 +13,9 @@ const Parceiro = ({ img, name, profission, content, key }) => {
         height={100}
         className="mb-4"
       ></Image>
-      <h4 className="text-black text-md lg:text-lg xl:text-xl font-roboto font-bold text-center mb-2">
+      <h2 className="text-black text-md lg:text-lg xl:text-xl font-roboto font-bold text-center mb-2">
         {name}
-      </h4>
+      </h2>
       <h5 className="text-black text-sm lg:text-md xl:text-lg font-roboto font-medium mb-4">
         {profission}
       </h5>
