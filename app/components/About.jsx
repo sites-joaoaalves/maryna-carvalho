@@ -13,7 +13,6 @@ const About = () => {
           className="object-fill"
           src="/sobre.jpg"
           alt="Maryna Carvalho"
-          loading="lazy"
         ></img>
       </div>
 
