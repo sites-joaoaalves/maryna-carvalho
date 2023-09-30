@@ -9,7 +9,7 @@ const ContactIcon = ({ href, img_src, alt, target = true }) => {
       href={href}
       target={target ? "_blank" : ""}
     >
-      <img loading="lazy" src={img_src} alt={alt} />
+      <Image width={60} height={60} loading="lazy" src={img_src} alt={alt} />
     </Link>
   );
 };

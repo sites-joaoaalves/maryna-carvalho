@@ -1,5 +1,6 @@
 import React from "react";
 import Details from "./Details";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -8,12 +9,14 @@ const About = () => {
       id="sobre"
     >
       <div className="hidden rounded-3xl lg:ml-auto w-1/2 lg:block overflow-hidden">
-        <img
+        <Image
           loading="lazy"
+          width={1633}
+          height={2088}
           className="object-fill"
           src="/sobre.jpg"
           alt="Maryna Carvalho"
-        ></img>
+        />
       </div>
 
       <div className="flex flex-col w-1/2 items-end h-full text-white space-y-8 text-right">

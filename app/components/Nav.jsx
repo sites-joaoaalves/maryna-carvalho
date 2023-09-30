@@ -12,8 +12,9 @@ const Nav = () => {
       id="navbar"
     >
       <Navbar.Brand href="#hero">
-        <img
-          loading="lazy"
+        <Image
+          width={477}
+          height={343}
           src="/logo.png"
           className="w-12"
           alt="Logo da Maryna Carvalho"

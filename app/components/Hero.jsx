@@ -33,11 +33,14 @@ const Hero = () => {
         </a>
       </div>
       <div className="hidden rounded-3xl lg:ml-auto lg:block lg:w-1/2 lg:h-[780px] overflow-hidden ml-auto">
-        <img
+        <Image
           src="/hero.jpg"
+          width={817}
+          height={1059}
           alt="Foto de Maryna Carvalho"
-          className="hero object-cover"
-        ></img>
+          className="hero object-cover object-center"
+          priority
+        />
       </div>
     </section>
   );

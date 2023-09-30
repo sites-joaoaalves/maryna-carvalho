@@ -1,5 +1,6 @@
 import React from "react";
 import ContactIcon from "./ContactIcon";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -8,7 +9,13 @@ const Footer = () => {
       id="footer"
     >
       <div className="flex flex-col space-y-8">
-        <img loading="lazy" src="/logo-preto.png" alt="Logo Maryna Carvalho" />
+        <Image
+          width={260}
+          height={131}
+          loading="lazy"
+          src="/logo-preto.png"
+          alt="Logo Maryna Carvalho"
+        />
         <span className="text-black font-roboto font-semibold">
           CNPJ:49.984.613/0001-08
         </span>

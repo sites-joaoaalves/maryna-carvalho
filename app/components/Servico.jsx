@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Servico = ({ img, name, content, invert }) => {
   return (
@@ -7,8 +8,10 @@ const Servico = ({ img, name, content, invert }) => {
         invert ? "text-white bg-secondary" : "text-black bg-primary"
       } servico group relative flex flex-col items-center justify-center group-hover:justify-between rounded-xl cursor-pointer shadow-[0_0px_8px_rgb(0,0,0,0.5)] space-y-4 py-6 px-12`}
     >
-      <img
+      <Image
         loading="lazy"
+        width={132}
+        height={132}
         src={img}
         alt={name}
         className={`h-28 w-28 ${invert ? "filter invert" : ""}`}
