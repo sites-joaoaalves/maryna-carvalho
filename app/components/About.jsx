@@ -5,7 +5,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <section
-      className="bg-bkg-primary relative flex items-center justify-center lg:justify-between px-12 py-16 md:px-[5%] lg:px-[10%] 2xl:px-[20%] lg:space-x-20 max-w-[100vw] max-h-[100vh] md:py-[5%]"
+      className="bg-bkg-primary relative flex items-center justify-center lg:justify-between px-12 py-16 md:px-[5%] lg:px-[10%] 2xl:px-[20%] lg:space-x-20 max-w-[100vw] xl:max-h-[100vh] md:py-[5%]"
       id="sobre"
     >
       <div className="hidden rounded-3xl lg:ml-auto w-1/2 lg:block overflow-hidden">

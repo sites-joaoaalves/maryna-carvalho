@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const imageLoader = ({ src, width, quality }) => {
   return `/hero/hero_${width}.png`;
@@ -25,12 +26,14 @@ const Hero = () => {
           Meu compromisso é encontrar a melhor solução para o seu problema. Em
           que posso ajudar?
         </p>
-        <a
-          href="#contact-form"
+
+        <Link
           className="rounded shrink-0 rounded-lg text-black font-bold font-roboto bg-primary w-72 p-4 text-center hover:bg-secondary hover:text-white hover:font-bolder transition duration-150 ease-out"
+          href={"https://wa.me/5561993290307"}
+          target={"_blank"}
         >
           Entrar em Contato
-        </a>
+        </Link>
       </div>
       <div className="hidden rounded-3xl lg:ml-auto lg:block lg:w-1/2 lg:h-[780px] overflow-hidden z-10 ml-auto">
         <Image
