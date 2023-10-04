@@ -48,7 +48,7 @@ const Footer = () => {
         </h2>
         <div className="flex items-center justify-between space-x-12">
           <ContactIcon
-            href="https://instagram.com"
+            href="https://www.instagram.com/marynasantosc"
             img_src="/instagram.png"
             alt="Logo do instagram"
           />
