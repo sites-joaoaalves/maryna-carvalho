@@ -55,7 +55,7 @@ const Contato = () => {
         </div>
         <form
           id="contact-form"
-          className="flex flex-col items-start justify-between bg-bkg-secondary h-[700px] lg:h-[620px] rounded-3xl lg:rounded-l-none lg:rounded-r-3xl w-full lg:w-[65%] lg:p-[5%] p-12 z-20"
+          className="flex flex-col items-start justify-between bg-bkg-secondary h-[700px] lg:h-[620px] rounded-3xl lg:rounded-l-none lg:rounded-r-3xl w-full lg:w-[65%] lg:p-[5%] p-6 z-20"
           onSubmit={handleSubmit}
         >
           <h1 className="text-4xl font-bold text-black self-center mb-2 hidden md:block">
