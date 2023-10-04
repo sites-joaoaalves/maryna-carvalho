@@ -65,11 +65,11 @@
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
-    border-bottom-right-radius: 120px;
+    border-bottom-right-radius: 60px;
   }
 
   #sobre {
-    border-bottom-right-radius: 120px;
+    border-bottom-right-radius: 60px !important;
   }
 
 }
