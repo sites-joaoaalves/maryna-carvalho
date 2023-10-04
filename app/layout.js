@@ -5,7 +5,6 @@ const antic = Antic_Didone({ subsets: ["latin"], weight: "400" });
 export const metadata = {
   title: "Maryna Carvalho Advocacia",
   description: "Advocacia especializada em Direito de Família e Sucessões",
-  url: "https://marynacarvalho.adv.br",
   type: "website",
   siteLanguage: "pt-BR",
   siteLocale: "pt_BR",
