@@ -24,7 +24,7 @@ const Avaliacao = ({ id, name, depoimento, rating, key }) => {
             ))}
         </div>
       </div>
-      <div className="relative bubble md:text-clip text-center lg:text-start text-black w-full md:w-[50%] sm:bg-white sm:p-6 sm:rounded-xl">
+      <div className="relative bubble md:text-clip text-center lg:text-start text-black w-full md:ml-12 xl:ml-0 md:w-[50%] sm:bg-white sm:p-6 sm:rounded-xl">
         <p className="">{depoimento}</p>
       </div>
 

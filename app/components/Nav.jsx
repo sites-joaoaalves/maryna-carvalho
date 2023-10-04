@@ -7,7 +7,7 @@ import { Navbar } from "flowbite-react";
 const Nav = () => {
   return (
     <Navbar
-      className="fixed top-0 w-screen !px-12 xl:!px-[17.5%] py-6 z-10 bg-bkg-primary"
+      className="fixed top-0 w-screen !px-12 xl:!px-[17.5%] py-6 z-50 bg-bkg-primary"
       fluid
       id="navbar"
     >

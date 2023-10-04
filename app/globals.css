@@ -51,7 +51,33 @@
     box-shadow: inset 0px 0px 80px 30px rgba(59, 46, 13, 1);
 
   }
+
+  #sobre:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.04;
+    background-image: url('/sobre.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    border-bottom-right-radius: 120px;
+  }
+
+  #sobre {
+    border-bottom-right-radius: 120px;
+  }
+
 }
+
+#sobre {
+  border-bottom-right-radius: 20%;
+}
+
 
 @keyframes sweep {
   0% {
@@ -112,15 +138,34 @@
   }
 }
 
-.bubble::after {
-  content: ' ';
-  position: absolute;
-  width: 0;
-  height: 0;
-  left: -16px;
-  right: auto;
-  top: 0px;
-  bottom: auto;
-  border: 12px solid;
-  border-color: white white transparent transparent;
+@media screen and (min-width: 768px) {
+  .bubble::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -16px;
+    right: auto;
+    top: 0px;
+    bottom: auto;
+    border: 12px solid;
+    border-color: white white transparent transparent;
+  }
+}
+
+
+main {
+  @apply !bg-white;
+}
+
+svg.h-6.w-6.shrink-0 {
+  color: white;
+}
+
+li {
+  padding: 8px 0;
+}
+
+li a {
+  width: 100%;
 }

@@ -5,7 +5,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <section
-      className="bg-bkg-primary flex items-center justify-center lg:justify-between px-8 md:px-[5%] lg:px-[10%] 2xl:px-[20%] space-x-20 max-w-[100vw] max-h-[100vh] py-[5%]"
+      className="bg-bkg-primary relative flex items-center justify-center lg:justify-between px-12 py-16 md:px-[5%] lg:px-[10%] 2xl:px-[20%] lg:space-x-20 max-w-[100vw] max-h-[100vh] md:py-[5%]"
       id="sobre"
     >
       <div className="hidden rounded-3xl lg:ml-auto w-1/2 lg:block overflow-hidden">
@@ -19,9 +19,9 @@ const About = () => {
         />
       </div>
 
-      <div className="flex flex-col w-1/2 items-end h-full text-white space-y-8 text-right">
+      <div className="flex flex-col w-full lg:w-1/2 items-center lg:items-end h-full text-white space-y-8 text-center lg:text-right">
         <span className="text-md border-b-4 border-primary">OAB/DF 70.365</span>
-        <h2 className="text-2xl md:text-5xl lg:text-6xl 2xl:text-7xl">
+        <h2 className="text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl">
           Dra. Maryna Carvalho
         </h2>
         <p className="font-roboto text-md md:text-lg self-start text-start">
@@ -37,12 +37,6 @@ const About = () => {
           seja possível atendimento de excelência na demanda que surgir.
         </p>
         <Details />
-        {/* <a
-          href="#contact-form"
-          className="rounded rounded-lg text-black font-bold font-roboto bg-primary w-72 p-6 text-center mt-auto hover:bg-secondary hover:text-white hover:font-bolder transition duration-150 ease-out"
-        >
-          ENTRAR EM CONTATO
-        </a> */}
       </div>
     </section>
   );

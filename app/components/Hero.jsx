@@ -8,7 +8,7 @@ const imageLoader = ({ src, width, quality }) => {
 const Hero = () => {
   return (
     <section
-      className="bg-bkg-primary relative overflow-hidden lg:overflow-visible flex justify-between py-[15%] lg:py-0 lg:h-[680px] px-8 md:px-[5%] lg:px-[10%] 2xl:px-[17.5%]  text-white mt-[80px]"
+      className="bg-bkg-primary overflow-hidden lg:overflow-visible flex justify-between py-[15%] lg:py-0 lg:h-[680px] px-8 md:px-[5%] lg:px-[10%] 2xl:px-[17.5%]  text-white mt-[80px]"
       id="hero"
     >
       <div className="flex flex-col justify-between items-center lg:items-start space-y-8 w-full lg:w-[50%] pt-[5%] h-3/4">
@@ -32,7 +32,7 @@ const Hero = () => {
           Entrar em Contato
         </a>
       </div>
-      <div className="hidden rounded-3xl lg:ml-auto lg:block lg:w-1/2 lg:h-[780px] overflow-hidden ml-auto">
+      <div className="hidden rounded-3xl lg:ml-auto lg:block lg:w-1/2 lg:h-[780px] overflow-hidden z-10 ml-auto">
         <Image
           src="/hero.jpg"
           width={817}

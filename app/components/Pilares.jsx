@@ -4,7 +4,7 @@ import PilaresIcon from "./PilaresIcon";
 const Pilares = () => {
   return (
     <section
-      className="bg-white px-8 md:px-[5%] lg:px-[10%] 2xl:px-[20%] py-20 flex flex-col items-center lg:items-start space-y-12 "
+      className="bg-white relative px-8 md:px-[5%] lg:px-[10%] 2xl:px-[20%] py-20 flex flex-col items-center lg:items-start space-y-12 "
       id="pilares"
     >
       <h2 className="text-black text-4xl md:text-5xl 2xl:text-7xl border-b-4 border-primary">
