@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Input from "./Input";
 import { Resend } from "resend";
 const resend = new Resend("re_8xBU8N8q_9YNUZ7aEjrn83pJDRAQgUCJB");
@@ -9,6 +9,7 @@ const Contato = () => {
   const emailRef = useRef(null);
   const phoneRef = useRef(null);
   const messageRef = useRef(null);
+  const [error, setError] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -17,11 +18,17 @@ const Contato = () => {
     const phone = phoneRef.current.value;
     const message = messageRef.current.value;
 
+    if (!name || !email || !phone || !message) {
+      setError(true);
+      return;
+    }
     // sends email to Maryna using Resend on /api route
     await fetch("/api/send", {
       method: "POST",
       body: JSON.stringify({ name, email, phone, message }),
     });
+
+    setError(false);
   };
 
   const handleContactFocus = () => {
@@ -61,6 +68,11 @@ const Contato = () => {
           <h1 className="text-4xl font-bold text-black self-center mb-2 hidden md:block">
             Contato
           </h1>
+          {error && (
+            <span className="text-center font-roboto text-xl font-bold text-white self-center p-2 bg-red-500 rounded-xl">
+              Preencha todos os campos!
+            </span>
+          )}
           <div className="flex flex-col lg:flex-row items-center lg:space-x-8 w-full">
             <Input
               inputRef={nameRef}
@@ -87,6 +99,7 @@ const Contato = () => {
             </span>
           </label>
           <textarea
+            required
             ref={messageRef}
             placeholder="O que você precisa?"
             name="message"

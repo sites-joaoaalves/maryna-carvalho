@@ -9,6 +9,7 @@ const Input = ({ label, type, placeholder, inputRef }) => {
         </span>
       </label>
       <input
+        required
         type={type}
         placeholder={placeholder}
         className="input input-bordered w-full bg-white text-black border-zinc-400 border-2"
