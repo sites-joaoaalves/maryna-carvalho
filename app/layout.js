@@ -1,13 +1,19 @@
 import "./globals.css";
+import { Head } from "next/head";
 import { Antic_Didone } from "next/font/google";
 const antic = Antic_Didone({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
   title: "Maryna Carvalho Advocacia",
   description: "Advocacia especializada em Direito de Família e Sucessões",
-  type: "website",
-  siteLanguage: "pt-BR",
-  siteLocale: "pt_BR",
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    url: "https://marynacarvalho.adv.br",
+    title: "Maryna Carvalho Advocacia",
+    description: "Advocacia especializada em Direito de Família e Sucessões",
+    image: "/images/logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
