@@ -13,7 +13,7 @@ export const metadata = {
     title: "Maryna Carvalho Advocacia",
     description: "Advocacia especializada em Direito de Família e Sucessões",
     image:
-      "https://marynacarvalho.adv.br/_next/image?url=%2Flogo.png&w=640&q=75 1x, /_next/image?url=%2Flogo.png&w=1080&q=75 2x",
+      "https://marynacarvalhoadvocacia.com.br/_next/image?url=%2Flogo-preto.png&w=384&q=100",
   },
 };
 
