@@ -10,7 +10,7 @@ const parceiros = [
       "Pós-Graduado em Direito Imobiliário, Direito Civil e Processo Civil. É Julgador do Tribunal de Ética e Disciplina da OAB/DF. Destaca-se pela grande experiência nos ramos Imobiliários e Condominiais.",
   },
   {
-    name: "Nathália Baliza Floresa",
+    name: "Nathália Baliza Flores",
     profission: "Condominial",
     img: "/nathalia.png",
     content:
@@ -38,7 +38,7 @@ const parceiros = [
       "Possui vasta experiência no âmbito do Direito Agrário, com especialização em Direito Público. Conta com forte atuação em Cortes Superiores e atende diversas instituições com e sem fins lucrativos.",
   },
   {
-    name: "Juliana Lauerman",
+    name: "Juliana Lauermann",
     profission: "Criminal",
     img: "/juliana.png",
     content:
