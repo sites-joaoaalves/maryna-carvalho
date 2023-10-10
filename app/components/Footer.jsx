@@ -25,7 +25,7 @@ const Footer = () => {
           Contato
         </h2>
         <span className="text-black font-roboto font-bold text-sm sm:text-md sm:font-regular lg:text-lg text-start">
-          (61) 9.9329-0307
+          (61) 9.9251-6468
         </span>
         <span className="text-black font-roboto font-bold text-sm sm:text-md sm:font-regular lg:text-lg ">
           marynacndsantos@gmail.com

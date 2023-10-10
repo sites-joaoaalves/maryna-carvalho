@@ -89,7 +89,7 @@ const Contato = () => {
           </div>
           <Input
             inputRef={emailRef}
-            label="Email"
+            label="E-mail"
             type="email"
             placeholder="contato@email.com"
           />

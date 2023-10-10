@@ -56,7 +56,7 @@ const Parceiros = () => {
         Parceiros
       </h2>
       <span className="font-roboto text-center lg:text-start text-md md:text-lg 2xl:text-xl text-white lg:w-1/2 mb-12">
-        Conta com parceiros especializados em diversas áreas para atender com
+        Conta com parcerias especializadas em diversas áreas para atender com
         excelência.
       </span>
 
