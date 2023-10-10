@@ -49,12 +49,16 @@ const parceiros = [
 const Parceiros = () => {
   return (
     <section
-      className="bg-black px-12 md:px-[5%] lg:px-[10%] 2xl:px-[20%] py-20 flex flex-col items-center lg:items-start space-y-12"
+      className="bg-black px-12 md:px-[5%] lg:px-[10%] 2xl:px-[20%] py-20 flex flex-col items-center lg:items-start"
       id="parceiros"
     >
-      <h2 className="text-white text-4xl md:text-5xl 2xl:text-7xl border-b-4 border-primary">
+      <h2 className="text-white text-4xl md:text-5xl 2xl:text-7xl border-b-4 border-primary mb-6">
         Parceiros
       </h2>
+      <span className="font-roboto text-center lg:text-start text-md md:text-lg 2xl:text-xl text-white lg:w-1/2 mb-12">
+        Conta com parceiros especializados em diversas áreas para atneder com
+        excelência
+      </span>
 
       <div className="flex flex-wrap items-start justify-center gap-x-12 gap-y-8">
         {parceiros.map((parceiro, index) => (
