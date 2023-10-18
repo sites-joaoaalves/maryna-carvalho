@@ -33,8 +33,8 @@ const About = () => {
           Condominial, Imobiliário, Consumidor, Família e Sucessões.
         </p>
         <p className="font-roboto text-md md:text-lg self-start text-start">
-          Conta com apoio de parceiros especializados em áreas diversas para que
-          seja possível atendimento de excelência na demanda que surgir.
+          Conta com parcerias especializadas em diversas áreas para que seja
+          possível atendimento de excelência na demanda que surgir.
         </p>
         <Details />
       </div>
